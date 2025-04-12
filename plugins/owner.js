@@ -19,11 +19,11 @@ try{
 
 let dec = `*👋 Hello ${pushname}*
 
-*👨‍💻JACK-MD 👨‍💻*
+*👨‍💻YUYU-MD 👨‍💻*
 
 > *𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢* 
 
-*⚡Owner name -: JACK-MD*
+*⚡Owner name -: JACK*
 *⚡Number* -: t.me/JACK
 
  ⚡️◦ https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3
@@ -51,7 +51,7 @@ try{
 
 let dec = `*📍ℝ𝔼ℙ𝕆-𝕃𝕀ℕ𝕂 ❤️‍🔥👇*
 
-👨‍💻◦https://github.com/JACK011A/JACK-MD
+👨‍💻◦https://github.com/DavMac751/YUYU-MD
 
 
 *📍ℙ𝕃𝔼𝔸𝕊𝔼 𝔽𝕆𝕃𝕃𝕆𝕎 𝕄𝕐 𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ ℂℍ𝔸ℕℕ𝔼𝕃 ❤️‍🔥👇*
