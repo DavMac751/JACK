@@ -27,7 +27,7 @@ cmd({
         }
 
         const movieInfo = `
-*🎬 JACK-MD MOVIE SERCH🎬*
+*🎬 YUYU-MD MOVIE SERCH🎬*
 
 *ᴛɪᴛʟᴇ:* ${data.Title}
 *ʏᴇᴀʀ:* ${data.Year}
