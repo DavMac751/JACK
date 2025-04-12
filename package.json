@@ -1,7 +1,7 @@
 {
   "name": "YUYU-MD",
   "version": "3.0.0",
-  "description": "A WhatsApp Bot Created By YOUR JACK",
+  "description": "A WhatsApp Bot Created ByJACK",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach -- YUYU-MD",
