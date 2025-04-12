@@ -1,6 +1,6 @@
-/*created by King Malvin 🕵
-contact dev1 263780934873 ♻️
-contact dev2 https://t.me/malvinking2 ♻️
+/*created by JACK 🕵
+contact dev1 254716613176 ♻️
+contact dev2 https://t.me/JACK ♻️
 © just give credit will you ⚠
 */
 
@@ -41,7 +41,7 @@ let madeMenu = `*╭─────────────────❒⁠⁠
      *${pushname}*
 
 ┏━━━━━━━━━━━━━━━━━━━━
-   *Welcome to JACK-MD*
+   *Welcome to YUYU-MD*
 ┗━━━━━━━━━━━━━━━━━━━━
 
 *Created by your JACK👨🏻‍💻*
@@ -94,7 +94,7 @@ ${menu.search}
 *╰──────────●●►*
 
 
-> *Powered by *JACK-MD
+> *Powered by YUYU-MD*
 
 `;
 
