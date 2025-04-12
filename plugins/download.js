@@ -174,11 +174,11 @@ cmd({
       react: { text: "⬆️", key: m.key }
     });
 
-    const caption = `╭════ 〔 *JACK-MD* 〕════❐\n`
+    const caption = `╭════ 〔 *YUYU-MD* 〕════❐\n`
       + `┃▢ *ғɪʟᴇ ɴᴀᴍᴇ:* ${file_name}\n`
       + `┃▢ *ғɪʟᴇ ᴛʏᴘᴇ:* ${mime_type}\n`
       + `╰═════════════════❐\n\n`
-      + `> *Powered by Your JACK-MD🎐*`;
+      + `> *Powered by Your YUYU-MD🎐*`;
 
     await conn.sendMessage(from, {
       document: { url: dl_link },
@@ -224,14 +224,14 @@ cmd({
     const app = data.datalist.list[0];
     const appSize = (app.size / 1048576).toFixed(2); // Convert bytes to MB
 
-    const caption = `╭═══ 〔 *JACK-MD 𝐀𝐏𝐊* 〕═══❐
+    const caption = `╭═══ 〔 *YUYU-MD 𝐀𝐏𝐊* 〕═══❐
 ┃ 🏷️ *ɴᴀᴍᴇ:* ${app.name}
 ┃ 📦 *sɪᴢᴇ:* ${appSize} MB
 ┃ 📮 *ᴘᴀᴄᴋᴀɢᴇ:* ${app.package}
 ┃ 📅 *ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ:* ${app.updated}
 ┃ 👨🏻‍💻 *ᴅᴇᴠᴇʟᴏᴘᴇʀ:* ${app.developer.name}
 ╰══════════════════❐
-> *Powered by JACK-MD🎐*`;
+> *Powered by YUYU-MD🎐*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
