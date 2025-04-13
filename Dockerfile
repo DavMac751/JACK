@@ -1,20 +1,21 @@
-# Use an official Node.js base image
+---
+
+## ✅ `Dockerfile` (Fixed Clone Path & Install Order)
+
+```dockerfile
 FROM node:lts-buster
 
-# Clone your GitHub repo
-RUN git clone https://github.com/DavMac751/YUYU-MD.git /root/YUYU-MD
+# Clone the actual public repo
+RUN git clone https://github.com/DavMac751/YUYU-MD /root/yuyu-md
 
-# Set the working directory
-WORKDIR /root/YUYU-MD
+WORKDIR /root/yuyu-md
 
-# Install dependencies
+# Install dependencies properly
 RUN npm install && npm install -g pm2
 
-# Copy all other project files (if any local changes)
+# Copy all files
 COPY . .
 
-# Expose the port your app runs on
 EXPOSE 9090
 
-# Run the bot using npm
 CMD ["npm", "start"]
