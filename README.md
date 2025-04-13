@@ -1,78 +1,64 @@
 # YUYU-MD
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐞𝐬𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 JACK KING 🌝💚
-<div class = "repo" align = "center">
- 
-<a href = "#">
-<img src = "https://i.postimg.cc/sDF86H3C/images-2.jpg"  width="300" height="200">
-</img>
- <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=YUYU-MD+MD+WHATSAPP+BOT+MD" alt="">
-   
+
+**𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐞𝐬𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 JACK KING**
+
+<div align="center">
+  <img src="https://i.postimg.cc/sDF86H3C/images-2.jpg" width="300" height="200">
+</div>
+
+<p align="center">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=YUYU-MD+WHATSAPP+BOT+IS+LIVE!" alt="Typing SVG"/></a>
+</p>
+
+---
+
 ## 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏 ↕️
 
-**1. Fork This Repository**
+### 1. Fork This Repository
 
-*_Start by forking this repository to your own GitHub account. Click the button below to fork:_*
+> Start by forking this repository to your own GitHub account:
 
-  <a href="https://github.com/DavMac751/YUYU-MD/fork"><img title="YUYU-MD" src="https://img.shields.io/badge/YUYU-LITE-MDh?color=darkblue&style=for-the-badge&logo=stackshare"></a>
+[![Fork YUYU-MD](https://img.shields.io/badge/Fork%20YUYU--MD-blue?style=for-the-badge&logo=github)](https://github.com/DavMac751/YUYU-MD/fork)
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+---
 
-🔑 Get Session ID (WhatsApp Pair Code Login)
+### 2. Generate Session ID
 
-> To deploy, generate your session ID from the link below:
-<p align="left">
-  <a href="https://malvin-pair-code-xzcb.onrender.com/?">
-    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
-  </a>
-</p>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+> Use the Pair Code generator below to log in and get your session:
 
+[![Get Pair Code](https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge)](https://malvin-pair-code-xzcb.onrender.com)
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+---
 
-2. **Obtain the Session ID**: After accessing the URL, you should see a session ID displayed. Copy this session ID.
+### 3. Deploy Your Bot Anywhere
 
+#### ▪️ Deploy to Heroku
 
-   
-  1..DEPLOY ON HEROKU ⤵️
-  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FDavMac751%2FYUYU-MD) 
-   
-   
-  2..DEPLOY ON RENDER ⤵️
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FDavMac751%2FYUYU-MD)
+
+#### ▪️ Deploy to Render
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/DavMac751/YUYU-MD.git)
 
+---
 
-   3..DEPLOY ON GITHUB ⤵️
+## ⚙️ GitHub Workflow (Optional)
 
+If you want to auto-run the bot via GitHub:
 
-</details>
-
-<b><strong><summary align="center" style="color: Yello;">Deploy On Workflow</summary></strong></b>
-<p style="text-align: center; font-size: 1.2em;">
- 
-<h8>Copy the workflow codes and then fork the repo edit config add session id then save and now click on repo action tag then click on start new workflow then paste workflow codes rename main.yml to deploy.yml and save the file</h8>
-<h3 align-"center"> Important</h3>
-<h6 align-"center">Attention! We do not take responsibility if your github account is suspended through this Deploy method, I advise you not to use this workflow deploy method in the latest github accounts, github accounts created a year or more ago have not received the risk of suspension so far, this works It will only be done for 6 hours, you need to update the code to reactivate it.</h6>
-
-```
+```yaml
 name: Node.js CI
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -80,30 +66,16 @@ jobs:
         node-version: [20.x]
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies
+        run: npm install
 
-    - name: Start application
-      run: npm start
-```
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
-### Thank You Dear
-
-> DEVELOPER OF LITE-MD 
-- [Lord Malvin ](https://github.com/techlord01)
-- Creater and Owner Of LITE-MD
-
-> LITE-MD Helper
-- [Malvin King](https://github.com/kingmalvn)
-- For helping in bot plugin files.
----
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+      - name: Start application
+        run: npm start
