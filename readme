@@ -1,0 +1,72 @@
+# YUYU-MD WhatsApp Bot
+
+A WhatsApp Multi-Device Bot powered by [Baileys](https://github.com/WhiskeySockets/Baileys), combined with a built-in session generator and full deployment support.
+
+---
+
+## SESSION ID GENERATOR
+
+> Generate your session instantly for use with the bot.
+
+1. Visit the [YUYU-MD Session Generator](https://yuyu-md.onrender.com)
+2. Click "Generate Session" and scan the QR code using your WhatsApp.
+3. Copy your Session ID from the response and paste it into your `.env` or `config.js`.
+
+---
+
+## DEPLOYMENT OPTIONS
+
+> One-click deploy to any of the platforms below:
+
+<a href='https://dashboard.heroku.com/new?template=https://github.com/DavMac751/yuyu-md' target="_blank">
+  <img alt='HEROKU DEPLOY' src='https://img.shields.io/badge/-HEROKU DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
+</a><br>
+
+<a href='https://dashboard.render.com' target="_blank">
+  <img alt='DEPLOY TO RENDER' src='https://img.shields.io/badge/-DEPLOY TO RENDER-black?style=for-the-badge&logo=render&logoColor=white'/>
+</a><br>
+
+<a href='https://app.koyeb.com' target="_blank">
+  <img alt='DEPLOY TO KOYEB' src='https://img.shields.io/badge/-DEPLOY TO KOYEB-black?style=for-the-badge&logo=koyeb&logoColor=white'/>
+</a><br>
+
+<a href='https://katabump.com/en/' target="_blank">
+  <img alt='DEPLOY TO KATABUMP' src='https://img.shields.io/badge/-DEPLOY TO KATABUMP-black?style=for-the-badge&logo=cloudflare&logoColor=white'/>
+</a><br>
+
+<a href='https://zluqe.org/' target="_blank">
+  <img alt='DEPLOY TO ZLUQE' src='https://img.shields.io/badge/-DEPLOY TO ZLUQE-black?style=for-the-badge&logo=cloudsmith&logoColor=white'/>
+</a>
+
+---
+
+## FORK THE REPOSITORY
+
+> Avoid the 404 error — this version includes both the session generator and bot logic for easy forking.
+
+[![Fork the repo](https://img.shields.io/badge/-FORK THIS REPO-black?style=for-the-badge&logo=github)](https://github.com/DavMac751/yuyu-md/fork)
+
+---
+
+## CREDITS
+
+> DEVELOPER OF 
+            YUYU-MD  
+- [JACK_COD](https://github.com/DavMac751) – Creator and Owner of JACK-MD
+
+> JACK-MD Helper  
+- [JACK_MAE](https://github.com/kingmalvn) – Helped in bot plugin files
+
+---
+
+## PROJECT STATUS
+
+This project merges:
+- The **session-yuyu** frontend pairing UI
+- The **fulesso** core bot backend logic
+
+**No more 404s** when users fork — it's all bundled and ready to deploy.
+
+---
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
